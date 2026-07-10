@@ -495,6 +495,111 @@ section { padding: 4.5rem 0; }
 
 .footer-legal { font-size: 0.8rem; }
 
+/* ---------- Blog / subpages ---------- */
+
+.site-header.solid {
+  background: rgba(14, 28, 20, 0.96);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
+}
+
+.page-head {
+  background: var(--green-900);
+  color: var(--cream);
+  padding: 8rem 0 3.5rem;
+}
+.page-head h1 { font-size: clamp(2.1rem, 6vw, 3.2rem); max-width: 22ch; margin-bottom: 0.9rem; }
+.page-head p { color: rgba(247, 242, 230, 0.78); max-width: 38rem; font-size: 1.08rem; }
+
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.4rem;
+  font-size: 0.85rem;
+  color: rgba(247, 242, 230, 0.6);
+  margin-top: 1.2rem;
+}
+.post-meta strong { color: rgba(247, 242, 230, 0.85); font-weight: 600; }
+
+/* Post cards on the blog index */
+
+.post-cards { display: grid; gap: 1.5rem; }
+
+.post-card {
+  background: #fff;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease;
+}
+.post-card:hover { transform: translateY(-3px); }
+.post-card img { height: 200px; width: 100%; object-fit: cover; }
+.post-card-body { padding: 1.4rem 1.5rem 1.6rem; display: flex; flex-direction: column; gap: 0.55rem; flex: 1; }
+.post-card-body h2 { font-size: 1.3rem; }
+.post-card-body p { color: var(--ink-soft); font-size: 0.95rem; flex: 1; }
+.post-card-date { font-size: 0.82rem; color: var(--ink-soft); }
+.post-card-more { font-weight: 600; color: var(--amber); font-size: 0.92rem; }
+
+.blog-note {
+  margin-top: 2.5rem;
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
+/* Article body */
+
+.post-body { max-width: 44rem; margin-inline: auto; padding: 3.5rem 0 1rem; }
+.post-body > * + * { margin-top: 1.1rem; }
+.post-body h2 { font-size: 1.6rem; margin-top: 2.4rem; }
+.post-body h3 { font-size: 1.2rem; margin-top: 1.8rem; }
+.post-body a { color: var(--green-700); font-weight: 600; }
+.post-body ul, .post-body ol { padding-left: 1.4rem; }
+.post-body li + li { margin-top: 0.45rem; }
+.post-body figure { margin: 2rem 0; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+.post-body figcaption { font-size: 0.85rem; color: var(--ink-soft); padding: 0.6rem 0.9rem; background: #fff; }
+
+.answer-box {
+  background: #fff;
+  border-left: 4px solid var(--amber);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 1.25rem 1.4rem;
+  box-shadow: var(--shadow);
+  margin: 1.8rem 0;
+}
+.answer-box strong { display: block; font-size: 0.78rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--amber); margin-bottom: 0.4rem; }
+
+.table-scroll { overflow-x: auto; margin: 1.6rem 0; border-radius: var(--radius); box-shadow: var(--shadow); }
+.post-body table { border-collapse: collapse; width: 100%; background: #fff; font-size: 0.95rem; }
+.post-body th, .post-body td { padding: 0.8rem 1rem; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.post-body th { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--green-700); background: var(--cream-deep); }
+.post-body td:last-child { font-variant-numeric: tabular-nums; }
+
+.post-cta {
+  background: var(--green-900);
+  color: var(--cream);
+  border-radius: var(--radius);
+  padding: 2rem 1.75rem;
+  margin: 3rem 0 1rem;
+  text-align: center;
+}
+.post-cta h2 { color: var(--cream); font-size: 1.5rem; margin: 0 0 0.5rem; }
+.post-cta p { color: rgba(247, 242, 230, 0.75); margin-bottom: 1.4rem; }
+
+.back-link { display: inline-block; margin: 2.5rem 0 0; font-weight: 600; color: var(--green-700); text-decoration: none; }
+.back-link:hover { color: var(--amber); }
+
+@media (min-width: 640px) {
+  .post-cards { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+  .post-cards { grid-template-columns: repeat(3, 1fr); }
+  .page-head { padding: 9.5rem 0 4rem; }
+}
+
 /* ---------- Reveal animation ---------- */
 
 .reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.6s ease, transform 0.6s ease; }

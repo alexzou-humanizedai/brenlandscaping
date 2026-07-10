@@ -8,10 +8,13 @@ static host (Netlify, Vercel, GitHub Pages, cPanel, etc.).
 ## Structure
 
 ```
-index.html        The whole site (hero, services, portfolio, why BREN, testimonials, contact)
+index.html        The whole site (hero, services, portfolio, why BREN, testimonials, FAQ, contact)
+blog/             "Advice" content hub for the monthly SEO/AEO plan (see below)
 css/styles.css    All styling — palette and type scale live in :root variables at the top
 js/main.js        Mobile nav, sticky header, scroll-reveal, quote form handler
 images/           SVG placeholder artwork (see below)
+robots.txt        Crawl rules + sitemap pointer
+sitemap.xml       All indexable URLs — add each new blog post here
 ```
 
 ## Before launch — swap the placeholders
@@ -53,10 +56,41 @@ Targeted at "landscaping Fairfield CT" and surrounding-town searches:
 - `FAQPage` JSON-LD mirrored by a visible FAQ section on the page.
 - Town names woven into hero, portfolio captions, image alt text, contact
   service area, and footer.
-- `robots.txt` + single-URL `sitemap.xml`. After launch: submit the sitemap
+- `robots.txt` + `sitemap.xml`. After launch: submit the sitemap
   in Google Search Console and create/claim a **Google Business Profile** for
   BREN Landscaping — for a local service business that matters more than any
   on-page factor.
+
+## Monthly content plan (SEO + AEO)
+
+The `blog/` directory ("Advice" in the nav) is the publishing space for a
+monthly SEO/AEO retainer. Two starter posts and a template are included:
+
+- `blog/index.html` — the hub page listing all articles
+- `blog/paver-patio-cost-fairfield-county-ct.html` — cost/"how much" post
+- `blog/best-time-to-plant-trees-shrubs-connecticut.html` — seasonal/how-to post
+- `blog/_template.html` — copy this for each new post; every TODO marks a
+  required field and the header comment documents the full publishing
+  checklist (slug, index card, Blog JSON-LD entry, sitemap entry)
+
+Each post is structured for answer engines as much as search engines:
+
+- **Quick Answer box** in the first screenful — the block featured snippets
+  and AI assistants (ChatGPT, Perplexity, Google AI Overviews) quote
+- **Question-style H1/H2s** matching how people actually phrase searches
+- **BlogPosting + BreadcrumbList + FAQPage JSON-LD** on every post, with
+  Dennis as a named author for E-E-A-T
+- **Local grounding** — town names, CT climate/zone facts, real price ranges
+
+Post ideas for upcoming months (one per month, cost/"how much" topics tend
+to earn the most local traffic): landscape lighting cost, fall cleanup
+checklist, stone wall repair vs. rebuild, lawn renovation timing,
+firepit vs. fireplace, drainage fixes for wet yards, deer-resistant
+plantings for Fairfield County.
+
+⚠️ The two starter posts contain 2026 price ranges and practices written to
+be plausible for the market — **have Dennis confirm every number before
+launch** so the content reflects his actual pricing and methods.
 
 ## Design notes
 

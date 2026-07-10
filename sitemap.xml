@@ -6,4 +6,22 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://brenlandscaping.com/blog/</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brenlandscaping.com/blog/paver-patio-cost-fairfield-county-ct.html</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://brenlandscaping.com/blog/best-time-to-plant-trees-shrubs-connecticut.html</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>

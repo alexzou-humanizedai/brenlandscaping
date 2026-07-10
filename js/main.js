@@ -63,7 +63,7 @@
   var form = document.getElementById("quote-form");
   var status = document.getElementById("form-status");
 
-  form.addEventListener("submit", function (e) {
+  if (form) form.addEventListener("submit", function (e) {
     e.preventDefault();
 
     if (!form.reportValidity()) return;
