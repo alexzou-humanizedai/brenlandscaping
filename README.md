@@ -19,19 +19,16 @@ sitemap.xml       All indexable URLs — add each new blog post here
 
 ## Before launch — swap the placeholders
 
-1. **Project photos** — the committed `images/*.svg` files are styled
-   placeholders. A set of photorealistic replacements was generated with
-   Higgsfield (2K, editorial style); run `bash tools/fetch-images.sh` from
-   the repo root **on your own machine** to download them into `images/` and
-   switch every reference over automatically (the remote build environment
-   could not reach Higgsfield's CDN; links may expire, so run it soon — the
-   images also live in the Higgsfield account library).
-   ⚠️ These are AI-generated scenes, not BREN's actual work. They're a big
-   visual upgrade over the SVGs for launch, but the portfolio section
-   presents them as completed projects — replace them with photos of real
-   jobs as soon as possible, both for honesty and because genuine local
-   photos perform better in search. `dennis.svg` is still a placeholder —
-   use a real photo of Dennis, never a generated one.
+1. **Project photos** — `images/hero.jpg` and `images/gallery-1…8.jpg` are
+   photorealistic 2K images generated with Higgsfield (editorial style,
+   JPEG-optimized for the web).
+   ⚠️ These are AI-generated scenes, not BREN's actual work. They're
+   launch-ready visually, but the portfolio section presents them as
+   completed projects — replace them with photos of real jobs as soon as
+   possible, both for honesty and because genuine local photos perform
+   better in search. Keep the same filenames to swap without code changes.
+   `dennis.svg` is still a placeholder — use a real photo of Dennis, never
+   a generated one.
 2. **Testimonials** — the three quotes in the Testimonials section are
    placeholder copy written to match the brand voice. Replace with real
    client reviews (names/towns included only with permission).
