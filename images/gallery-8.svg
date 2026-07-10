@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Layered perennial garden bed in bloom">
+  <defs>
+    <linearGradient id="sky8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d3e4dc"/>
+      <stop offset="1" stop-color="#efe8d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="900" fill="url(#sky8)"/>
+  <path d="M0 400 Q260 350 520 390 T800 380 V900 H0 Z" fill="#37552f"/>
+  <path d="M0 520 Q300 480 800 510 V900 H0 Z" fill="#2a4425"/>
+  <g fill="#233d20">
+    <circle cx="130" cy="470" r="70"/>
+    <circle cx="300" cy="500" r="58"/>
+    <circle cx="520" cy="480" r="66"/>
+    <circle cx="690" cy="510" r="56"/>
+  </g>
+  <g fill="#5d7a3f">
+    <circle cx="210" cy="590" r="54"/>
+    <circle cx="420" cy="610" r="60"/>
+    <circle cx="630" cy="600" r="50"/>
+  </g>
+  <g fill="#b06a4a">
+    <circle cx="160" cy="700" r="22"/><circle cx="360" cy="720" r="20"/><circle cx="560" cy="710" r="22"/><circle cx="720" cy="700" r="18"/>
+  </g>
+  <g fill="#c9a2b8">
+    <circle cx="250" cy="760" r="18"/><circle cx="470" cy="780" r="20"/><circle cx="660" cy="770" r="16"/><circle cx="90" cy="780" r="18"/>
+  </g>
+  <g fill="#e3d9a8">
+    <circle cx="180" cy="840" r="16"/><circle cx="400" cy="850" r="18"/><circle cx="600" cy="845" r="15"/>
+  </g>
+</svg>

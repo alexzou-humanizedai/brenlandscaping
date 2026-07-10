@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Custom stone firepit at dusk">
+  <defs>
+    <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3a4d"/>
+      <stop offset=".55" stop-color="#6b5a52"/>
+      <stop offset="1" stop-color="#c98a4a"/>
+    </linearGradient>
+    <radialGradient id="fire1" cx=".5" cy=".85" r=".55">
+      <stop offset="0" stop-color="#ffc46b" stop-opacity=".95"/>
+      <stop offset=".4" stop-color="#e08c3a" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#e08c3a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#sky1)"/>
+  <circle cx="590" cy="240" r="46" fill="#f4e3c2" opacity=".85"/>
+  <path d="M0 620 Q200 560 420 610 T800 590 V1000 H0 Z" fill="#243325"/>
+  <path d="M0 700 Q260 650 520 700 T800 690 V1000 H0 Z" fill="#1a2620"/>
+  <rect width="800" height="1000" fill="url(#fire1)"/>
+  <ellipse cx="400" cy="880" rx="150" ry="34" fill="#4a4038"/>
+  <ellipse cx="400" cy="866" rx="150" ry="34" fill="#6b5d50"/>
+  <ellipse cx="400" cy="864" rx="110" ry="24" fill="#2a2420"/>
+  <path d="M400 790 q-30 40 -8 62 q-14 -6 -18 -24 q-16 26 6 40 q34 16 46 -12 q10 -26 -26 -66 Z" fill="#ffb347"/>
+  <path d="M402 818 q-16 22 -4 36 q22 10 26 -10 q3 -14 -22 -26 Z" fill="#ffe0a3"/>
+</svg>

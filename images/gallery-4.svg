@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1050" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Landscape lighting along a garden path at night">
+  <defs>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e1a24"/>
+      <stop offset="1" stop-color="#1d3038"/>
+    </linearGradient>
+    <radialGradient id="glow4" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffd98a" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#ffd98a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1050" fill="url(#sky4)"/>
+  <circle cx="640" cy="150" r="40" fill="#e8e6d8" opacity=".9"/>
+  <circle cx="240" cy="120" r="3" fill="#fff" opacity=".8"/>
+  <circle cx="380" cy="90" r="2.5" fill="#fff" opacity=".7"/>
+  <circle cx="120" cy="210" r="2.5" fill="#fff" opacity=".6"/>
+  <circle cx="500" cy="180" r="2" fill="#fff" opacity=".7"/>
+  <path d="M0 560 Q240 500 500 550 T800 540 V1050 H0 Z" fill="#14231c"/>
+  <path d="M330 1050 Q380 760 400 640 Q420 760 470 1050 Z" fill="#3a4348"/>
+  <g>
+    <ellipse cx="230" cy="720" rx="120" ry="70" fill="url(#glow4)"/>
+    <rect x="226" y="690" width="8" height="46" fill="#2c2c28"/>
+    <circle cx="230" cy="684" r="10" fill="#ffd98a"/>
+    <ellipse cx="580" cy="800" rx="130" ry="76" fill="url(#glow4)"/>
+    <rect x="576" y="768" width="8" height="48" fill="#2c2c28"/>
+    <circle cx="580" cy="762" r="10" fill="#ffd98a"/>
+    <ellipse cx="250" cy="950" rx="140" ry="80" fill="url(#glow4)"/>
+    <rect x="246" y="916" width="8" height="50" fill="#2c2c28"/>
+    <circle cx="250" cy="910" r="11" fill="#ffd98a"/>
+  </g>
+  <circle cx="110" cy="600" r="54" fill="#0f1c15"/>
+  <circle cx="690" cy="620" r="60" fill="#0f1c15"/>
+</svg>

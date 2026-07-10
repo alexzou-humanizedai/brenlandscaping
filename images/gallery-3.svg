@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Dry-laid fieldstone wall">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7e2d2"/>
+      <stop offset="1" stop-color="#f0ead9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#sky3)"/>
+  <path d="M0 380 Q240 330 480 370 T800 360 V800 H0 Z" fill="#456244"/>
+  <path d="M0 470 H800 V800 H0 Z" fill="#33502f"/>
+  <g fill="#9aa1a4">
+    <rect x="20" y="470" width="180" height="72" rx="16"/>
+    <rect x="216" y="470" width="140" height="72" rx="16"/>
+    <rect x="372" y="470" width="200" height="72" rx="16"/>
+    <rect x="588" y="470" width="192" height="72" rx="16"/>
+  </g>
+  <g fill="#828a8e">
+    <rect x="0" y="556" width="130" height="72" rx="16"/>
+    <rect x="146" y="556" width="200" height="72" rx="16"/>
+    <rect x="362" y="556" width="150" height="72" rx="16"/>
+    <rect x="528" y="556" width="220" height="72" rx="16"/>
+  </g>
+  <g fill="#6e777c">
+    <rect x="40" y="642" width="190" height="72" rx="16"/>
+    <rect x="246" y="642" width="150" height="72" rx="16"/>
+    <rect x="412" y="642" width="210" height="72" rx="16"/>
+    <rect x="638" y="642" width="162" height="72" rx="16"/>
+  </g>
+  <circle cx="700" cy="170" r="56" fill="#f6efdc"/>
+  <circle cx="120" cy="340" r="46" fill="#2a4426"/>
+  <circle cx="170" cy="358" r="32" fill="#365431"/>
+</svg>
