@@ -377,6 +377,42 @@ section { padding: 4.5rem 0; }
 
 .stars { color: var(--amber); letter-spacing: 0.15em; font-size: 0.85rem; margin-bottom: 0.75rem; }
 
+/* FAQ */
+
+.faq { background: var(--cream-deep); padding-top: 4rem; padding-bottom: 4rem; }
+
+.faq-list { max-width: 46rem; }
+
+.faq-list details { border-top: 1px solid var(--line); }
+.faq-list details:last-child { border-bottom: 1px solid var(--line); }
+
+.faq-list summary {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  padding: 1.1rem 2.2rem 1.1rem 0;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after {
+  content: "+";
+  position: absolute;
+  right: 0.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-sans);
+  font-size: 1.3rem;
+  color: var(--amber);
+  transition: transform 0.2s ease;
+}
+.faq-list details[open] summary::after { content: "–"; }
+.faq-list summary:hover { color: var(--green-700); }
+.faq-list summary:focus-visible { outline: 2px solid var(--amber); outline-offset: 4px; }
+
+.faq-list details p { padding: 0 0 1.25rem; color: var(--ink-soft); max-width: 42rem; }
+.faq-list details a { color: var(--green-700); font-weight: 600; }
+
 /* Contact */
 
 .contact { background: var(--green-950); padding-bottom: 5rem; }
@@ -448,6 +484,7 @@ section { padding: 4.5rem 0; }
 
 .footer-brand .logo { font-size: 1.2rem; }
 .footer-brand p { margin-top: 0.5rem; max-width: 26rem; }
+.footer-area { font-size: 0.8rem; color: rgba(247, 242, 230, 0.5); }
 
 .footer-links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
 .footer-links a { color: rgba(247, 242, 230, 0.8); text-decoration: none; }

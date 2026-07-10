@@ -31,8 +31,32 @@ images/           SVG placeholder artwork (see below)
    pre-filled (works with zero setup). For a hosted form, point the form's
    `action` at Formspree/Netlify Forms/etc. and delete the submit handler in
    `js/main.js`.
-5. **Service area & hours** — listed as "Fairfield County & surrounding
-   Connecticut towns", Mon–Sat 7am–6pm. Confirm with Dennis.
+5. **Service area & hours** — the site names Fairfield, Southport, Westport,
+   Easton, Weston, Trumbull, Stratford, Monroe, Shelton, and Milford, with
+   hours Mon–Sat 7am–6pm. Confirm the town list and hours with Dennis.
+6. **Portfolio captions** — gallery captions carry example town names for
+   local SEO. Match each caption to where the real project was actually built.
+7. **Canonical domain** — SEO tags, `robots.txt`, and `sitemap.xml` assume
+   `https://brenlandscaping.com/` (non-www). If the site resolves at
+   `www.brenlandscaping.com`, update the canonical/OG URLs and sitemap, and
+   301-redirect the other host.
+8. **og:image** — currently points at the SVG hero. Once real photos are in,
+   swap it for a 1200×630 JPG for clean social sharing previews.
+
+## Local SEO
+
+Targeted at "landscaping Fairfield CT" and surrounding-town searches:
+
+- Location-led `<title>`, meta description, and Open Graph/Twitter tags.
+- `HomeAndConstructionBusiness` JSON-LD with phone, hours, geo, service
+  offers, and `areaServed` covering ten Fairfield County towns.
+- `FAQPage` JSON-LD mirrored by a visible FAQ section on the page.
+- Town names woven into hero, portfolio captions, image alt text, contact
+  service area, and footer.
+- `robots.txt` + single-URL `sitemap.xml`. After launch: submit the sitemap
+  in Google Search Console and create/claim a **Google Business Profile** for
+  BREN Landscaping — for a local service business that matters more than any
+  on-page factor.
 
 ## Design notes
 
