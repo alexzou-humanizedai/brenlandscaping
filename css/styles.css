@@ -200,7 +200,7 @@ h1, h2, h3 { font-family: var(--font-serif); line-height: 1.12; letter-spacing: 
   display: flex;
   align-items: flex-end;
   color: var(--cream);
-  background: var(--green-950) url("../images/hero.svg") center / cover no-repeat;
+  background: var(--green-950) url("../images/hero.png") center / cover no-repeat;
 }
 
 .hero::after {
